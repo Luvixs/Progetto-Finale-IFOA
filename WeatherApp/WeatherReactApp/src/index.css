@@ -1,14 +1,36 @@
 #root{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
 }
 
 body {
     /* background:  linear-gradient(228deg, rgba(238,231,174,1) 0%, rgba(148,218,233,1) 100%);; */
-    background-image: url(../src/assets/thunderstorm.jpg);
+    /* background-image: url(../src/assets/thunderstorm.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
+    background-size: cover; */
     color: blanchedalmond;
     min-height: 100vh;
     padding: 0;
   }
+
+#root:before{
+    background-image: url(../src/assets/thunderstorm.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+
+/* @media screen and (max-width:1200px) { 
+   
+} */
+
