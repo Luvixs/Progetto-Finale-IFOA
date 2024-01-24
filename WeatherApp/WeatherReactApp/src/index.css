@@ -1,0 +1,14 @@
+#root{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background:  linear-gradient(228deg, rgba(238,231,174,1) 0%, rgba(148,218,233,1) 100%);; */
+    background-image: url(../src/assets/thunderstorm.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: blanchedalmond;
+    min-height: 100vh;
+    padding: 0;
+  }
