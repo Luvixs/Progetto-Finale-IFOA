@@ -13,7 +13,7 @@ const NextDays = (prop) => {
                     style={{position:"relative", left:"-20px"}}
                     src={`https://openweathermap.org/img/wn/${list.weather[0].icon}@2x.png`}
                     alt=""
-                  />{" "}
+                  />
                 </div>
               </div>
             ) : (
